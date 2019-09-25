@@ -14,13 +14,19 @@ class Map extends Component {
     },
     zoom: 18
   };
+  handleApiLoaded = props => {
+    console.log("maps", props);
+    // use map and maps objects
+  };
 
   render() {
     return (
       <GoogleMapReact
-        bootstrapURLKeys={{ key: API_KEY }}
+        bootstrapURLKeys={{ key: API_KEY, language: "vn" }}
         defaultCenter={this.props.center}
         defaultZoom={this.props.zoom}
+        yesIWantToUseGoogleMapApiInternals
+        onGoogleApiLoaded={props => this.handleApiLoaded(props)}
       >
         <AnyReactComponent
           lat={10.8014539}

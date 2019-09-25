@@ -1,14 +1,41 @@
 import React from "react";
 import "./App.css";
 import Map from "./components/Map";
+import Header from "./components/Header";
+import ProductList from "./components/ProductList";
+import { InputGroup, FormControl, Button } from "react-bootstrap";
 
-// const API_KEY = "AIzaSyA6yBOkg6xy45laf4RQp-PD7f39k4_0tPQ";
-// 10.8014539,106.6391456
 function App() {
+  console.log(document);
   return (
-    <div style={{ height: "100vh", width: "100%" }}>
-      <Map />
-    </div>
+    <>
+      <Header />
+      <div style={{ marginTop: 56 }}>
+        <div style={{ width: "50%" }}>
+          <div style={{ padding: "10px" }}>
+            <InputGroup>
+              <FormControl aria-describedby="basic-addon1" />
+              <InputGroup.Append>
+                <Button variant="outline-secondary">Search</Button>
+              </InputGroup.Append>
+            </InputGroup>
+          </div>
+          <ProductList />
+        </div>
+        <div
+          style={{
+            position: "fixed",
+            right: 0,
+            top: 56,
+            width: "50%",
+            height: "94%",
+            backgroundColor: "gray"
+          }}
+        >
+          <Map />
+        </div>
+      </div>
+    </>
   );
 }
 
