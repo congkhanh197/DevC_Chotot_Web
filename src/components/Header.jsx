@@ -9,12 +9,12 @@ function Header() {
       expand="lg"
       className="navbar navbar-expand-md navbar-dark fixed-top bg-dark"
     >
-      <Navbar.Brand href="#home">DevC 1024</Navbar.Brand>
+      <Navbar.Brand href="/">DevC 1024</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/Price">Price</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

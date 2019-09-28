@@ -6,7 +6,7 @@ export class ProductItem extends Component {
     return (
       <Col
         style={{ minWidth: 300, padding: "10px" }}
-        className="bl-listing-91415 col-lg-4 col-md-6 col-sm-6"
+        className="col-lg-4 col-md-6 col-sm-6"
       >
         <Card>
           <Card.Img

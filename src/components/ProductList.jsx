@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { CardColumns } from "react-bootstrap";
 import ProductItem from "./ProductItem";
 
 export class ProductList extends Component {
