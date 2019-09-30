@@ -15,13 +15,14 @@ class Map extends Component {
     zoom: 18
   };
   handleApiLoaded = props => {
-    console.log("maps", props);
+    // console.log("maps", props);
     // use map and maps objects
   };
 
   render() {
     return (
       <GoogleMapReact
+        style={{ height: "94vh" }}
         bootstrapURLKeys={{ key: API_KEY, language: "vn" }}
         defaultCenter={this.props.center}
         defaultZoom={this.props.zoom}

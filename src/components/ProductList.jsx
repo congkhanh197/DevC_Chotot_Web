@@ -1,22 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 import ProductItem from "./ProductItem";
+import { Row } from "react-bootstrap";
 
-export class ProductList extends Component {
-  render() {
-    return (
-      <div
-        style={{
-          display: "flex",
-          flexWrap: "wrap"
-        }}
-        // className="col-xl-3 col-xl-3"
-      >
-        {[1, 2, 3, 5, 4, 6, 7].map(item => (
-          <ProductItem key={item.toString()} />
-        ))}
-      </div>
-    );
-  }
+function ProductList(props) {
+  console.log(props)
+  return (
+    <Row>
+      {[1, 2, 3, 5].map(item => (
+        <ProductItem key={item.toString()} />
+      ))}
+    </Row>
+  );
 }
 
 export default ProductList;
