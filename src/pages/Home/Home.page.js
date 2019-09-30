@@ -1,7 +1,8 @@
-import React from "react";
-import Map from "../../components/Map";
+import React, { lazy, Suspense } from "react";
 import ProductList from "../../components/ProductList";
 import { InputGroup, FormControl, Button } from "react-bootstrap";
+
+const Map = lazy(() => import("../../components/Map"));
 
 function HomePage() {
   return (
@@ -27,7 +28,9 @@ function HomePage() {
           backgroundColor: "gray"
         }}
       >
-        <Map />
+        <Suspense fallback={<div>Loading...</div>}>
+          <Map />
+        </Suspense>
       </div>
     </div>
   );

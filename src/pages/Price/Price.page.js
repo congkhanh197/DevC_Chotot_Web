@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, Suspense, lazy } from "react";
 import { Col, Row } from "react-bootstrap";
-import ChartResult from "./components/ChartResult";
 import ChoosePriceForm from "./components/ChoosePriceForm";
+
+const ChartResult = lazy(() => import("./components/ChartResult"));
 
 PricePage.defaultProps = {
   maxYearBorrow: 30,
@@ -29,7 +30,9 @@ function PricePage(props) {
           />
         </Col>
         <Col className="border rounded" style={{ padding: 15 }}>
-          <ChartResult borrowDetail={borrowDetail} />
+          <Suspense fallback={<div>Loading...</div>}>
+            <ChartResult borrowDetail={borrowDetail} />
+          </Suspense>
         </Col>
       </Row>
     </div>
