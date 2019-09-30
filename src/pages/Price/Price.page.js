@@ -5,31 +5,30 @@ import ChoosePriceForm from "./components/ChoosePriceForm";
 
 PricePage.defaultProps = {
   maxYearBorrow: 30,
-  maxPrice: 50000000000,
-  initPrice: 10000000000
+  maxPrice: 20000000000,
+  propertyPrice: 10000000000
 };
 function PricePage(props) {
   const [borrowDetail, setBorrowDetail] = useState({
-    percentPrice: 69,
-    initPrice: props.initPrice,
+    propertyPrice: props.propertyPrice,
     maxPrice: props.maxPrice,
     percentBorrow: 90,
-    time: 10,
-    maxYearBorrow: props.maxPrice,
+    yearBorrow: 10,
+    maxYearBorrow: props.maxYearBorrow,
     interestRate: 7.6,
-    formHorizontalRadios: "1"
+    program: "1"
   });
   return (
     <div className="container" style={{ marginTop: 56 }}>
       <h2>Tính vay mua nhà</h2>
       <Row className="border rounded">
-        <Col style={{ backgroundColor: "lightgray", padding: 10 }}>
+        <Col className="border rounded" style={{ padding: 15 }}>
           <ChoosePriceForm
             borrowDetail={borrowDetail}
             setBorrowDetail={setBorrowDetail}
           />
         </Col>
-        <Col style={{ padding: 15 }}>
+        <Col className="border rounded" style={{ padding: 15 }}>
           <ChartResult borrowDetail={borrowDetail} />
         </Col>
       </Row>

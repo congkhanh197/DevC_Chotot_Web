@@ -1,13 +1,14 @@
 import React from "react";
-
 import { Formik } from "formik";
-import { Form } from "react-bootstrap";
+import { Form, Button, Col, Row } from "react-bootstrap";
+import { formatMoneyUnit } from "../../../utils";
 
-export default function ChoosePriceForm({ borrowDetail }) {
+export default function ChoosePriceForm({ borrowDetail, setBorrowDetail }) {
   return (
     <Formik
       onSubmit={data => {
-        setBorrowDetail(data);
+        console.log("form data", data);
+        setBorrowDetail({ ...borrowDetail, ...data });
       }}
       initialValues={borrowDetail}
     >
@@ -18,16 +19,18 @@ export default function ChoosePriceForm({ borrowDetail }) {
               <Form.Label>Giá trị nhà đất (tỷ VNĐ)</Form.Label>
               <Form.Control
                 type="range"
-                name="percentPrice"
-                className="custom-range"
-                value={values.percentPrice}
+                name="propertyPrice"
+                className="form-control-range slider"
+                min="100000000"
+                max={borrowDetail.maxPrice}
+                value={values.propertyPrice}
                 onChange={e => {
                   handleChange(e);
-                  setMoneys([
-                    values.percentPrice,
-                    values.percentBorrow,
-                    values.time
-                  ]);
+                  setBorrowDetail({
+                    ...borrowDetail,
+                    ...values,
+                    propertyPrice: e.target.value
+                  });
                 }}
               />
             </Form.Group>
@@ -37,11 +40,7 @@ export default function ChoosePriceForm({ borrowDetail }) {
                 disabled
                 className="text-center"
                 type="text"
-                value={formatTextMoney(
-                  (values.percentPrice * props.maxPrice) / 100,
-                  false,
-                  1
-                )}
+                value={formatMoneyUnit(values.propertyPrice, 1)}
               />
             </Form.Group>
           </Form.Row>
@@ -50,12 +49,16 @@ export default function ChoosePriceForm({ borrowDetail }) {
               <Form.Label>Tỷ lệ vay (%)</Form.Label>
               <Form.Control
                 type="range"
-                name="ratio"
-                className="custom-range"
+                name="percentBorrow"
+                className="form-control-range"
                 value={values.percentBorrow}
                 onChange={e => {
                   handleChange(e);
-                  setMoneys([values.price, values.percentBorrow, values.time]);
+                  setBorrowDetail({
+                    ...borrowDetail,
+                    ...values,
+                    percentBorrow: parseInt(e.target.value)
+                  });
                 }}
               />
             </Form.Group>
@@ -75,12 +78,18 @@ export default function ChoosePriceForm({ borrowDetail }) {
               <Form.Label>Thời hạn vay (năm)</Form.Label>
               <Form.Control
                 type="range"
-                name="time"
-                className="custom-range"
-                value={values.time}
+                name="yearBorrow"
+                min="1"
+                max={borrowDetail.maxYearBorrow}
+                className="form-control-range"
+                value={values.yearBorrow}
                 onChange={e => {
                   handleChange(e);
-                  setMoneys([values.price, values.percentBorrow, values.time]);
+                  setBorrowDetail({
+                    ...borrowDetail,
+                    ...values,
+                    yearBorrow: e.target.value
+                  });
                 }}
               />
             </Form.Group>
@@ -90,25 +99,18 @@ export default function ChoosePriceForm({ borrowDetail }) {
                 disabled
                 className="text-center"
                 type="text"
-                name="time"
-                value={
-                  Math.round((values.time * props.maxYearBorrow) / 100) + " năm"
-                }
-                onChange={e => {
-                  handleChange(e);
-                  setMoneys([values.price, values.percentBorrow, values.time]);
-                }}
+                value={values.yearBorrow + " năm"}
               />
             </Form.Group>
           </Form.Row>
           <Form.Row className="d-flex align-items-center">
             <Form.Group as={Col} md="9" controlId="validationFormik03">
-              <Form.Label>Example select</Form.Label>
+              <Form.Label>Lãi suất %/năm</Form.Label>
               <Form.Control
                 as="select"
                 onChange={e => {
                   handleChange(e);
-                  setMoneys([values.price, values.percentBorrow, values.time]);
+                  setBorrowDetail({ ...borrowDetail, ...values });
                 }}
               >
                 <option>Mặc định</option>
@@ -120,7 +122,7 @@ export default function ChoosePriceForm({ borrowDetail }) {
                 className="text-center"
                 type="text"
                 name="time"
-                value={"7.6 %/năm"}
+                value={values.interestRate + " %"}
                 onChange={handleChange}
               />
             </Form.Group>
@@ -128,40 +130,27 @@ export default function ChoosePriceForm({ borrowDetail }) {
 
           <fieldset>
             <Form.Group as={Row}>
-              <Form.Label as="legend" column sm={2}>
-                Radios
-              </Form.Label>
-              <Col sm={10}>
+              <Col>
                 <Form.Check
                   defaultChecked
                   value={1}
                   onChange={e => {
                     handleChange(e);
-                    setMoneys([
-                      values.price,
-                      values.percentBorrow,
-                      values.time
-                    ]);
                   }}
                   type="radio"
                   label="Thanh toán theo dư nợ giảm dần"
-                  name="formHorizontalRadios"
-                  id="formHorizontalRadios1"
+                  name="program"
                 />
+              </Col>
+              <Col>
                 <Form.Check
                   value={2}
                   onChange={e => {
                     handleChange(e);
-                    setMoneys([
-                      values.price,
-                      values.percentBorrow,
-                      values.time
-                    ]);
                   }}
                   type="radio"
                   label="Thanh toán đều hàng tháng"
-                  name="formHorizontalRadios"
-                  id="formHorizontalRadios2"
+                  name="program"
                 />
               </Col>
             </Form.Group>

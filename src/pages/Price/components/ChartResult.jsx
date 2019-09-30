@@ -1,13 +1,14 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import Chart from "react-apexcharts";
+import { formatTextWithComma, formatMoneyUnit } from "../../../utils";
 
 const CHART_OPTIONS = {
   colors: ["#6975c7", "#49b5c1", "#cf67a4"],
   dataLabels: {
     enabled: false
   },
-
+  labels: ["Trả trước", "Trả gốc", "Trả lãi"],
   responsive: [
     {
       breakpoint: 480,
@@ -27,6 +28,7 @@ const CHART_OPTIONS = {
   },
   plotOptions: {
     pie: {
+      expandOnClick: false,
       donut: {
         size: "80%",
         background: "transparent",
@@ -34,31 +36,31 @@ const CHART_OPTIONS = {
           show: true,
           name: {
             show: true,
-            fontSize: "15px",
+            fontSize: "18px",
             fontFamily: "Helvetica, Arial, sans-serif",
-            color: "#ff33ff",
-            offsetY: 15
+            color: "#000000",
+            offsetY: -20
           },
           value: {
             show: true,
             fontSize: "30px",
             fontFamily: "Helvetica, Arial, sans-serif",
             color: "#000000",
-            offsetY: -17,
+            offsetY: 3,
             formatter: function(val) {
-              return val;
+              return formatMoneyUnit(val, 1);
             }
           },
           total: {
             show: true,
-            label: "Total",
-            color: "#ff33ff",
+            label: "Tổng",
+            color: "#000000",
             formatter: function(w) {
-              return formatTextMoney(
+              return formatMoneyUnit(
                 w.globals.seriesTotals.reduce((a, b) => {
                   return a + b;
                 }, 0),
-                false
+                1
               );
             }
           }
@@ -68,7 +70,19 @@ const CHART_OPTIONS = {
   }
 };
 
-export default function ChartResult({}) {
+export default function ChartResult({ borrowDetail }) {
+  const {
+    propertyPrice,
+    percentBorrow,
+    yearBorrow,
+    interestRate
+  } = borrowDetail;
+  // console.log(borrowDetail);
+  const roundPropertyPrice = Math.round(propertyPrice / 10 ** 8) * 10 ** 8;
+  const firstPay = (roundPropertyPrice * (100 - percentBorrow)) / 100;
+  const needPay = (roundPropertyPrice * percentBorrow) / 100;
+  const interestPay = (needPay * interestRate * yearBorrow) / 100;
+
   return (
     <>
       <h3>Kết quả</h3>
@@ -78,23 +92,23 @@ export default function ChartResult({}) {
         <Col className="d-flex justify-content-center align-items-center">
           <Chart
             options={CHART_OPTIONS}
-            series={moneys}
+            series={[firstPay, needPay, interestPay]}
             type="donut"
-            width="190"
+            width="210"
           />
         </Col>
         <Col>
           Cần trả trước:
           <h5 style={{ color: CHART_OPTIONS.colors[0] }}>
-            {formatTextMoney(moneys[0] * 10 ** 8)}
+            {formatTextWithComma(firstPay)}
           </h5>
           Gốc cần trả:
           <h5 style={{ color: CHART_OPTIONS.colors[1] }}>
-            {formatTextMoney(moneys[1] * 10 ** 8)}
+            {formatTextWithComma(needPay)}
           </h5>
           Lãi cần trả:
           <h5 style={{ color: CHART_OPTIONS.colors[2] }}>
-            {formatTextMoney(moneys[2] * 10 ** 8)}
+            {formatTextWithComma(interestPay)}
           </h5>
         </Col>
       </Row>
@@ -112,7 +126,11 @@ export default function ChartResult({}) {
             Thanh toán tháng đầu
           </Col>
           <Col md="7" style={{ paddingLeft: 25 }}>
-            <h2>{moneys.reduce((a, b) => a + b, 0) * 10 ** 8}</h2>
+            <h2>
+              {formatTextWithComma(
+                (needPay * interestRate) / 1200 + needPay / (yearBorrow * 12)
+              )}
+            </h2>
           </Col>
         </Row>
       </Container>
