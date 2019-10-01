@@ -1,22 +1,10 @@
-import axios from "axios";
+import gql from "graphql-tag";
 
-const baseUrl = "http://localhost:5000";
-
-const getHomepageAd = (response, error) => {
-    return axios
-      .get(baseUrl + "/ad-listing")
-      .then(response)
-      .catch(error);
-//   return fetch(baseUrl + "/ad-listing")
-//     .then(function(response) {
-//       return response.json();
-//     })
-//     .then(function(json) {
-//       console.log("parsed json", json);
-//     });
-  // .catch(function(ex) {
-  //   console.log("parsing failed", ex);
-  // });
-};
-
-export { getHomepageAd };
+export const GET_AD_LISTING = gql`
+  query getAdListing {
+    AdListing @rest(type: "AdListing", path: "ad-listing") {
+      data
+      total
+    }
+  }
+`;
