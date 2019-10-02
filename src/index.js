@@ -10,7 +10,7 @@ import { RestLink } from "apollo-link-rest";
 import { ApolloProvider } from "react-apollo";
 
 const restLink = new RestLink({
-  uri: "https://devc-1024-server.herokuapp.com/"
+  uri: process.env.REACT_APP_BASE_URL
 });
 
 // setup your client

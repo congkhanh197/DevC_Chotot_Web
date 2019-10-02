@@ -1,4 +1,4 @@
-import React, { lazy, Suspense, Component } from "react";
+import React, { lazy, Suspense } from "react";
 import ProductList from "../../components/ProductList";
 import {
   InputGroup,
@@ -6,87 +6,104 @@ import {
   Button,
   Row,
   Col,
-  Container
+  Container,
+  Pagination
 } from "react-bootstrap";
 import { GET_AD_LISTING } from "../../api";
-import { Query } from "react-apollo";
-import ReactPaginate from "react-paginate";
+import { useQuery } from "@apollo/react-hooks";
 const Map = lazy(() => import("../../components/Map"));
 
-class HomePage extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      offset: 0,
-      data: [],
-      perPage: 20,
-      currentPage: 0,
-      pageCount: 10
-    };
-  }
-  render() {
-    console.log(this.state)
-    return (
-      <>
-        <Row style={{ marginTop: 56 }}>
-          <Col>
-            <Container>
-              <Row style={{ padding: "10px" }}>
-                <InputGroup>
-                  <FormControl aria-describedby="basic-addon1" />
-                  <InputGroup.Append>
-                    <Button variant="outline-secondary">Search</Button>
-                  </InputGroup.Append>
-                </InputGroup>
-              </Row>
-              <Query query={GET_AD_LISTING}>
-                {({ loading, error, data }) => {
-                  if (loading) return "Loading...";
-                  if (error) return `Error! ${error.message}`;
-                  if (data) {
-                    return <ProductList data={data.AdListing.data} />
-                    // this.setState({
-                    //   data : data.AdListing.data,
-                    //   offset : data.AdListing.offset +1,
-                    //   currentPage: Math.ceil(data.AdListing.offset/this.state.perPage),
-                    //   pageCount: Math.ceil(data.AdListing.total/this.state.perPage)
-                    // })
-                  }
-                }}
-              </Query>
-              {/* <ProductList data={this.state.data} /> */}
-              {/* <Row className="justify-content-md-center">
-                {this.state.pageCount > 1 && (
-                  <ReactPaginate
-                    previousLabel={<Button>Previous</Button>}
-                    nextLabel={<Button>Next</Button>}
-                    breakLabel={"..."}
-                    pageCount={this.state.pageCount}
-                    forcePage={this.state.currentPage}
-                    previousLinkClassName={"previous_page"}
-                    nextLinkClassName={"next_page"}
-                    breakClassName={"break-me"}
-                    marginPagesDisplayed={2}
-                    pageRangeDisplayed={5}
-                    onPageChange={e => {
-                      console.log({ selectedPage: e.selected });
-                    }}
-                    containerClassName={"flex pagination"}
-                    activeClassName={"active"}
+function HomePage(props) {
+  const { loading, error, data, refetch } = useQuery(GET_AD_LISTING, {
+    variables: {
+      o: 0,
+      limit: 12
+    }
+  });
+  const pageCount = data
+    ? Math.ceil(data.AdListing.total / data.AdListing.limit)
+    : 0;
+  const currentPage = data
+    ? Math.ceil(data.AdListing.offset / data.AdListing.limit) + 1
+    : 1;
+  return (
+    <>
+      <Row style={{ marginTop: 56 }}>
+        <Col>
+          <Container>
+            <Row style={{ padding: "10px" }}>
+              <InputGroup>
+                <FormControl aria-describedby="basic-addon1" />
+                <InputGroup.Append>
+                  <Button variant="outline-secondary">Search</Button>
+                </InputGroup.Append>
+              </InputGroup>
+            </Row>
+            <>
+              {loading && <div>"Loading..."</div>}
+              {error && <div>{`Error! ${error.message}`}</div>}
+              {data && (
+                <ProductList
+                  data={data.AdListing.data}
+                  onAdClick={list_id => () =>
+                    props.history.push(list_id.toString())}
+                />
+              )}
+            </>
+            <Row className="justify-content-md-center">
+              {pageCount > 1 && (
+                <Pagination>
+                  <Pagination.First
+                    disabled={currentPage === 1}
+                    onClick={() =>
+                      refetch({
+                        o: 0,
+                        limit: 12
+                      })
+                    }
                   />
-                )}
-              </Row> */}
-            </Container>
-          </Col>
-          <Col></Col>
-        </Row>
-        <div style={{ position: "fixed", width: "50%", right: 0, top: 56 }}>
-          <Suspense fallback={<div>Loading...</div>}>
-            <Map />
-          </Suspense>
-        </div>
-      </>
-    );
-  }
+                  <Pagination.Prev
+                    disabled={currentPage === 1}
+                    onClick={() =>
+                      refetch({
+                        o: (currentPage - 2) * 12,
+                        limit: 12
+                      })
+                    }
+                  />
+                  <Pagination.Item active>{currentPage}</Pagination.Item>
+                  <Pagination.Next
+                    disabled={currentPage === pageCount}
+                    onClick={() =>
+                      refetch({
+                        o: currentPage * 12,
+                        limit: 12
+                      })
+                    }
+                  />
+                  <Pagination.Last
+                    disabled={currentPage === pageCount}
+                    onClick={() =>
+                      refetch({
+                        o: data.AdListing.total - 12,
+                        limit: 12
+                      })
+                    }
+                  />
+                </Pagination>
+              )}
+            </Row>
+          </Container>
+        </Col>
+        <Col></Col>
+      </Row>
+      <div style={{ position: "fixed", width: "50%", right: 0, top: 56 }}>
+        <Suspense fallback={<div>Loading...</div>}>
+          <Map />
+        </Suspense>
+      </div>
+    </>
+  );
 }
+
 export default HomePage;
