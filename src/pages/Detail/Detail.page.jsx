@@ -72,7 +72,13 @@ function DetailPage(props) {
       </Row>
       <Row>
         {recommend.map(item => (
-          <Card key={item.list_id} style={{ width: 200, margin: 10 }}>
+          <Card
+            key={item.list_id}
+            style={{ width: 200, margin: 10 }}
+            onClick={() => {
+              props.history.push("/" + item.list_id);
+            }}
+          >
             <Card.Img
               variant="top"
               src={item.image}
@@ -82,7 +88,10 @@ function DetailPage(props) {
               <Card.Title style={{ height: 50, overflow: "hidden" }}>
                 {item.subject}
               </Card.Title>
-              <Card.Text>{item.price_string}</Card.Text>
+              <Card.Text>
+                {item.price_string + " - " + item.rooms + " Phòng"}
+              </Card.Text>
+              <Card.Text>{item.ward_name + ", " + item.area_name}</Card.Text>
             </Card.Body>
           </Card>
         ))}
