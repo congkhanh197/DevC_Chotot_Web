@@ -1,11 +1,11 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import "./styles/Header.css"
 
 function Header() {
   return (
     <Navbar
-      bg="dark"
-      variant="dark"
+      bg="light"
       expand="lg"
       className="navbar navbar-expand-md navbar-dark fixed-top bg-dark"
     >
