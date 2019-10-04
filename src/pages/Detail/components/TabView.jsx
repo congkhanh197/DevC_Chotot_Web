@@ -8,7 +8,7 @@ function TabView(props) {
     setIndex(selectedIndex);
     setDirection(e.direction);
   };
-
+  
   return (
     <Carousel
       activeIndex={index}
@@ -22,7 +22,7 @@ function TabView(props) {
             src={item}
             alt="First slide"
             className="d-block"
-            style={{width:'100%', height: 700, alignSelf:'center' }}
+            style={{width: window.innerWidth*0.87, height: window.innerHeight*0.75, alignSelf:'center' }}
           />
         </Carousel.Item>
       ))}

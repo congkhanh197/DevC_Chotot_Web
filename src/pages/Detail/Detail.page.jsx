@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import TabView from "./components/TabView";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, Image } from "react-bootstrap";
 
 import Loading from "../../components/Loading";
 
@@ -56,13 +56,44 @@ function DetailPage(props) {
             Địa chỉ: {ad_params.address.value}
           </Row>
           <Row style={{ marginTop: 20 }}>
-            {ad_params.size && <Col>{ad_params.size.value}</Col>}
-            {ad_params.rooms && <Col>{ad_params.rooms.value}</Col>}
+            {ad_params.size && (
+              <Col>
+                <Image
+                  src="https://www.pinclipart.com/picdir/big/0-9015_orange-house-cliparts-home-icon-png-orange-transparent.png"
+                  style={{ width: 20, height: 20, marginRight: 10 }}
+                />
+                {ad_params.size.value}
+              </Col>
+            )}
+            {ad_params.rooms && (
+              <Col>
+                <Image
+                  src="https://library.kissclipart.com/20180916/qq/kissclipart-orange-square-round-corners-clipart-computer-icons-21cde4a9486a1345.png"
+                  style={{ width: 20, height: 20, marginRight: 10 }}
+                />
+                {ad_params.rooms.value}
+              </Col>
+            )}
           </Row>
           <Row>
-            {ad_params.toilets && <Col>Toilet: {ad_params.toilets.value}</Col>}
+            {ad_params.toilets && (
+              <Col>
+                <Image
+                  src="https://www.trzcacak.rs/myfile/full/213-2138124_shop-toilets-illustration.png"
+                  style={{ width: 20, height: 20, marginRight: 10 }}
+                />
+                Toilet: {ad_params.toilets.value}
+              </Col>
+            )}
+
             {ad_params.property_legal_document && (
-              <Col>{ad_params.property_legal_document.value}</Col>
+              <Col>
+                <Image
+                  src="https://www.risksolved.com/wp-content/uploads/2017/01/rs-icon-legal.png"
+                  style={{ width: 20, height: 20, marginRight: 10 }}
+                />
+                {ad_params.property_legal_document.value}
+              </Col>
             )}
           </Row>
         </Col>
@@ -79,7 +110,7 @@ function DetailPage(props) {
             <Card.Img
               variant="top"
               src={item.image}
-              style={{ maxWidth: 200, maxHeight: 100 }}
+              style={{ maxWidth: 218, maxHeight: 218 }}
             />
             <Card.Body>
               <Card.Title style={{ height: 50, overflow: "hidden" }}>
