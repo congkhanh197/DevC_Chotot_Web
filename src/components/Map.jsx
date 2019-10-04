@@ -24,9 +24,9 @@ class Map extends Component {
   static defaultProps = {
     center: {
       lat: 10.7810762,
-      lng: 106.7006385,
+      lng: 106.7006385
     },
-    zoom: 13.5
+    zoom: 13
   };
   handleApiLoaded = (google, handleLoadAreaAd) => {
     const { map, maps } = google;
@@ -73,17 +73,17 @@ class Map extends Component {
       }
     });
 
-    const image = {
-      url: "http://hyveephoto.com/images/circle-transparent-png-8.png",
-      scaledSize: new maps.Size(50, 50), // scaled size
-      origin: new maps.Point(0, 0), // origin
-      anchor: new maps.Point(0, 0)
-    };
     data_marker.forEach(item => {
+      const sizeMarker = 50 * (parseInt(item.value) / 140);
       const marker = new maps.Marker({
         position: new maps.LatLng(item.lat, item.lng),
         label: item.value,
-        icon: image,
+        icon: {
+          url: "http://hyveephoto.com/images/circle-transparent-png-8.png",
+          scaledSize: new maps.Size(sizeMarker, sizeMarker),
+          origin: new maps.Point(0, 0),
+          anchor: new maps.Point(0, 0)
+        },
         map: map
       });
       marker.addListener("mouseover", function(event) {
