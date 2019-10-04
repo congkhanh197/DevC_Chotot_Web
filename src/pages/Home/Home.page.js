@@ -74,6 +74,9 @@ function HomePage(props) {
                     props.history.push(list_id.toString())}
                 />
               )}
+              {data && data.AdListing.data.length === 0 && (
+                <div>Không tìm thấy dữ liệu</div>
+              )}
             </>
             <Row className="justify-content-md-center">
               {pageCount > 1 && (
