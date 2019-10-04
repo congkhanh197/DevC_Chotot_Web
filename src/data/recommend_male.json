@@ -1,0 +1,1156 @@
+
+
+[
+   {
+      "Thông tin chung cho bạn sinh năm ": "1949",
+      "Năm": "Kỷ Sửu",
+      " Mệnh : ": "Tích Lịch Hỏa ",
+      "Cung : ": "Càn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1950",
+      "Năm": "Canh Dần",
+      " Mệnh : ": "Tùng Bách Mộc ",
+      "Cung : ": "Khôn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1951",
+      "Năm": "Tân Mão",
+      " Mệnh : ": "Tùng Bách Mộc ",
+      "Cung : ": "Tốn [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1952",
+      "Năm": "Nhâm Thìn",
+      " Mệnh : ": "Trường Lưu Thủy ",
+      "Cung : ": "Chấn [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1954",
+      "Năm": "Giáp Ngọ",
+      " Mệnh : ": "Sa Trung Kim ",
+      "Cung : ": "Khảm [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1955",
+      "Năm": "Ất Mùi",
+      " Mệnh : ": "Sa Trung Kim ",
+      "Cung : ": "Ly [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Nam  (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1956",
+      "Năm": "Bính Thân",
+      " Mệnh : ": "Sơn Hạ Hỏa ",
+      "Cung : ": "Cấn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1957",
+      "Năm": "Đinh Dậu",
+      " Mệnh : ": "Sơn Hạ Hỏa ",
+      "Cung : ": "Đoài [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1958",
+      "Năm": "Mậu Tuất",
+      " Mệnh : ": "Bình Địa Mộc ",
+      "Cung : ": "Càn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1959",
+      "Năm": "Kỷ Hợi",
+      " Mệnh : ": "Bình Địa Mộc ",
+      "Cung : ": "Khôn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1960",
+      "Năm": "Canh Tí",
+      " Mệnh : ": "Bích Thượng Thổ ",
+      "Cung : ": "Tốn [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1961",
+      "Năm": "Tân Sửu",
+      " Mệnh : ": "Bích Thượng Thổ ",
+      "Cung : ": "Chấn [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1962",
+      "Năm": "Nhâm Dần",
+      " Mệnh : ": "Kim Bạc Kim ",
+      "Cung : ": "Khôn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1964",
+      "Năm": "Giáp Thìn",
+      " Mệnh : ": "Phú Đăng Hỏa ",
+      "Cung : ": "Ly [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Nam  (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1965",
+      "Năm": "Ất Tỵ",
+      " Mệnh : ": "Phú Đăng Hỏa ",
+      "Cung : ": "Cấn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1966",
+      "Năm": "Bính Ngọ",
+      " Mệnh : ": "Thiên Hà Thủy ",
+      "Cung : ": "Đoài [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1967",
+      "Năm": "Đinh Mùi",
+      " Mệnh : ": "Thiên Hà Thủy ",
+      "Cung : ": "Càn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1968",
+      "Năm": "Mậu Thân",
+      " Mệnh : ": "Đại Dịch Thổ ",
+      "Cung : ": "Khôn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1969",
+      "Năm": "Kỷ Dậu",
+      " Mệnh : ": "Đại Dịch Thổ ",
+      "Cung : ": "Tốn [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1970",
+      "Năm": "Canh Tuất",
+      " Mệnh : ": "Thoa Xuyến Kim ",
+      "Cung : ": "Chấn [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1971",
+      "Năm": "Tân Hợi",
+      " Mệnh : ": "Thoa Xuyến Kim ",
+      "Cung : ": "Khôn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1972",
+      "Năm": "Nhâm Tí",
+      " Mệnh : ": "Tang Đố Mộc ",
+      "Cung : ": "Khảm [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1974",
+      "Năm": "Giáp Dần",
+      " Mệnh : ": "Đại Khê Thủy ",
+      "Cung : ": "Cấn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1975",
+      "Năm": "Ất Mão",
+      " Mệnh : ": "Đại Khê Thủy ",
+      "Cung : ": "Đoài [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1976",
+      "Năm": "Bính Thìn",
+      " Mệnh : ": "Sa Trung Thổ ",
+      "Cung : ": "Càn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1977",
+      "Năm": "Đinh Tỵ",
+      " Mệnh : ": "Sa Trung Thổ ",
+      "Cung : ": "Khôn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1978",
+      "Năm": "Mậu Ngọ",
+      " Mệnh : ": "Thiên Thượng Hỏa ",
+      "Cung : ": "Tốn [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1979",
+      "Năm": "Kỷ Mùi",
+      " Mệnh : ": "Thiên Thượng Hỏa ",
+      "Cung : ": "Chấn [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1980",
+      "Năm": "Canh Thân",
+      " Mệnh : ": "Thạch Lựu Mộc ",
+      "Cung : ": "Khôn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1981",
+      "Năm": "Tân Dậu",
+      " Mệnh : ": "Thạch Lựu Mộc ",
+      "Cung : ": "Khảm [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1982",
+      "Năm": "Nhâm Tuất",
+      " Mệnh : ": "Đại Hải Thủy ",
+      "Cung : ": "Ly [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Nam  (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1984",
+      "Năm": "Giáp Tí",
+      " Mệnh : ": "Hải Trung Kim ",
+      "Cung : ": "Đoài [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1985",
+      "Năm": "Ất Sửu",
+      " Mệnh : ": "Hải Trung Kim ",
+      "Cung : ": "Càn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1986",
+      "Năm": "Bính Dần",
+      " Mệnh : ": "Lô Trung Hỏa ",
+      "Cung : ": "Khôn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1987",
+      "Năm": "Đinh Mão",
+      " Mệnh : ": "Lô Trung Hỏa ",
+      "Cung : ": "Tốn [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1988",
+      "Năm": "Mậu Thìn",
+      " Mệnh : ": "Đại Lâm Mộc ",
+      "Cung : ": "Chấn [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1989",
+      "Năm": "Kỷ Tỵ",
+      " Mệnh : ": "Đại Lâm Mộc ",
+      "Cung : ": "Khôn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1990",
+      "Năm": "Canh Ngọ",
+      " Mệnh : ": "Lộ Bàng Thổ ",
+      "Cung : ": "Khảm [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1991",
+      "Năm": "Tân Mùi",
+      " Mệnh : ": "Lộ Bàng Thổ ",
+      "Cung : ": "Ly [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Nam  (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1992",
+      "Năm": "Nhâm Thân",
+      " Mệnh : ": "Kiếm Phong Kim ",
+      "Cung : ": "Cấn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1994",
+      "Năm": "Giáp Tuất",
+      " Mệnh : ": "Sơn Đầu Hỏa ",
+      "Cung : ": "Càn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1995",
+      "Năm": "Ất Hợi",
+      " Mệnh : ": "Sơn Đầu Hỏa ",
+      "Cung : ": "Khôn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1996",
+      "Năm": "Bính Tí",
+      " Mệnh : ": "Giản Hạ Thủy ",
+      "Cung : ": "Tốn [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1997",
+      "Năm": "Đinh Sửu",
+      " Mệnh : ": "Giản Hạ Thủy ",
+      "Cung : ": "Chấn [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1998",
+      "Năm": "Mậu Dần",
+      " Mệnh : ": "Thành Đầu Thổ ",
+      "Cung : ": "Khôn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "1999",
+      "Năm": "Kỷ Mão",
+      " Mệnh : ": "Thành Đầu Thổ ",
+      "Cung : ": "Khảm [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2000",
+      "Năm": "Canh Thìn",
+      " Mệnh : ": "Bạch Lạp Kim ",
+      "Cung : ": "Ly [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Nam  (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2001",
+      "Năm": "Tân Tỵ",
+      " Mệnh : ": "Bạch Lạp Kim ",
+      "Cung : ": "Cấn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2002",
+      "Năm": "Nhâm Ngọ",
+      " Mệnh : ": "Dương Liễu Mộc ",
+      "Cung : ": "Đoài [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2004",
+      "Năm": "Giáp Thân",
+      " Mệnh : ": "Tuyền Trung Thủy ",
+      "Cung : ": "Khôn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2005",
+      "Năm": "Ất Dậu",
+      " Mệnh : ": "Tuyền Trung Thủy ",
+      "Cung : ": "Tốn [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2006",
+      "Năm": "Bính Tuất",
+      " Mệnh : ": "ốc Thượng Thổ ",
+      "Cung : ": "Chấn [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2007",
+      "Năm": "Đinh Hợi",
+      " Mệnh : ": "ốc Thượng Thổ ",
+      "Cung : ": "Khôn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2008",
+      "Năm": "Mậu Tí",
+      " Mệnh : ": "Tích Lịch Hỏa ",
+      "Cung : ": "Khảm [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2009",
+      "Năm": "Kỷ Sửu",
+      " Mệnh : ": "Tích Lịch Hỏa ",
+      "Cung : ": "Ly [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Nam  (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2010",
+      "Năm": "Canh Dần",
+      " Mệnh : ": "Tùng Bách Mộc ",
+      "Cung : ": "Cấn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2011",
+      "Năm": "Tân Mão",
+      " Mệnh : ": "Tùng Bách Mộc ",
+      "Cung : ": "Đoài [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2012",
+      "Năm": "Nhâm Thìn",
+      " Mệnh : ": "Trường Lưu Thủy ",
+      "Cung : ": "Càn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2014",
+      "Năm": "Giáp Ngọ",
+      " Mệnh : ": "Sa Trung Kim ",
+      "Cung : ": "Tốn [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2015",
+      "Năm": "Ất Mùi",
+      " Mệnh : ": "Sa Trung Kim ",
+      "Cung : ": "Chấn [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Đông Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2016",
+      "Năm": "Bính Thân",
+      " Mệnh : ": "Sơn Hạ Hỏa ",
+      "Cung : ": "Khôn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Bắc (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Tây Nam (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Nam (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2017",
+      "Năm": "Đinh Dậu",
+      " Mệnh : ": "Sơn Hạ Hỏa ",
+      "Cung : ": "Khảm [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Nam (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Đông Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây Bắc (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Tây (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2018",
+      "Năm": "Mậu Tuất",
+      " Mệnh : ": "Bình Địa Mộc ",
+      "Cung : ": "Ly [Đông Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Đông (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Đông Nam (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Bắc (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Nam  (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Tây Bắc (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Tây (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Tây Nam (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Đông Bắc (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   },
+   {
+      "Thông tin chung cho bạn sinh năm ": "2019",
+      "Năm": "Kỷ Hợi",
+      " Mệnh : ": "Bình Địa Mộc ",
+      "Cung : ": "Cấn [Tây Tứ Trạch]",
+      "Hướng tốt": {
+         "Hướng Sinh Khí : ": "Tây Nam (Sao tốt nhất, chỉ về tài vận cực tốt, khỏe mạnh, rất vượng về người.)",
+         "Hướng Thiên Y : ": "Tây Bắc (Sao tốt thứ 3, bệnh tật thuyên giảm, tài vận cũng tốt, khỏe mạnh sống lâu.)",
+         "Hướng Phúc Đức : ": "Tây (Sao tốt nhì, tài vận rất tốt, sống thọ, khoẻ mạnh, vợ chồng hòa khí.)",
+         "Hướng Phục Vị : ": "Đông Bắc (Sao tốt thứ 4, tài vận tốt thường, khí vận trung bình, sức khoẻ và gia vận trung bình.)"
+      },
+      "Hướng xấu": {
+         "Tuyệt Mạng : ": "Đông Nam (Sao xấu nhất, tài vận cực kém, nhiều bệnh, tổn thọ, họa tuyệt tự, thương tật bất ngờ.)",
+         "Ngũ Quỷ : ": "Bắc (Sao xấu thứ ba, phá tài bại nghiệp, coi chừng hỏa hoạn, sức khoẻ kém, tinh thần không ổn định.)",
+         "Lục Sát : ": "Đông (Sao ít xấu thứ nhì, tài vận không tốt, tranh cải thị phi, tai họa liên tục, nhiều bệnh.)",
+         "Hoạ Hại : ": "Nam (Sao ít xấu nhất, khó tích tụ tiền của, kiện tụng thị phi, thường bị tranh chấp, trộm cướp.)"
+      }
+   }
+]
