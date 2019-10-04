@@ -109,7 +109,12 @@ function HomePage(props) {
       </Row>
       <div style={{ position: "fixed", width: "50%", right: 0, top: 56 }}>
         <Suspense fallback={<div>Loading...</div>}>
-          <Map setArea={setArea} />
+          <Map
+            setArea={setArea}
+            onAdClick={list_id => () => {
+              props.history.push(list_id.toString());
+            }}
+          />
         </Suspense>
       </div>
       <div
@@ -156,7 +161,7 @@ function HomePage(props) {
                     let i = 1949;
                     let result = [];
                     for (; i <= 2019; i++) {
-                      result = [...result, <option>{i}</option>];
+                      result = [...result, <option key={i}>{i}</option>];
                     }
                     return result;
                   })()}
