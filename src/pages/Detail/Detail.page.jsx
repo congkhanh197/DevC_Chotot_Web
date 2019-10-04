@@ -31,6 +31,7 @@ function DetailPage(props) {
   if (loading) return <Loading />;
   if (error) return <div style={{ marginTop: 56 }}>{error}</div>;
   const { ad, ad_params } = data;
+  console.log(data);
   return (
     <Container style={{ marginTop: 70, background: "lightgray" }}>
       <Row>
@@ -56,25 +57,22 @@ function DetailPage(props) {
             Địa chỉ: {ad_params.address.value}
           </Row>
           <Row style={{ marginTop: 20 }}>
-            <Col>{ad_params.size.value}</Col>
-            <Col>{ad_params.rooms.value}</Col>
+            {ad_params.size && <Col>{ad_params.size.value}</Col>}
+            {ad_params.rooms && <Col>{ad_params.rooms.value}</Col>}
           </Row>
           <Row>
-            <Col>Toilet: {ad_params.toilets.value}</Col>
-            <Col>
-              {ad_params.property_legal_document
-                ? ad_params.property_legal_document.value
-                : "default"}
-            </Col>
+            {ad_params.toilets && <Col>Toilet: {ad_params.toilets.value}</Col>}
+            {ad_params.property_legal_document && (
+              <Col>{ad_params.property_legal_document.value}</Col>
+            )}
           </Row>
         </Col>
-        <Col></Col>
       </Row>
       <Row>
         {recommend.map(item => (
           <Card
             key={item.list_id}
-            style={{ width: 200, margin: 10 }}
+            style={{ width: 218, margin: 5 }}
             onClick={() => {
               props.history.push("/" + item.list_id);
             }}

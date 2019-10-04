@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomePage from "./pages/Home/Home.page";
 import PricePage from "./pages/Price/Price.page";
 import DetailPage from "./pages/Detail/Detail.page";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 function App() {
   return (
@@ -17,6 +18,10 @@ function App() {
           <Route exact path="/" component={HomePage} />
         </Switch>
       </Router>
+      <MessengerCustomerChat
+        pageId="117044256362678"
+        appId="2456726451314362"
+      />
     </>
   );
 }
