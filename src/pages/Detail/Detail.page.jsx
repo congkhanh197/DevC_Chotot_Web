@@ -31,7 +31,6 @@ function DetailPage(props) {
   if (loading) return <Loading />;
   if (error) return <div style={{ marginTop: 56 }}>{error}</div>;
   const { ad, ad_params } = data;
-  console.log(data);
   return (
     <Container style={{ marginTop: 70, background: "lightgray" }}>
       <Row>

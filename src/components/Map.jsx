@@ -7,26 +7,26 @@ const API_KEY = "AIzaSyDBunJ4GXNEC3KJlpoGJO-iB--CjPv4o-s";
 const data_planning = require("../data/data.json");
 const data_marker = require("../data/marker.json");
 
-const Marker = ({ text }) => (
-  <div
-    onClick={() => {
-      console.log("test");
-    }}
-    style={{
-      color: "white",
-      background: "grey",
-      padding: "15px 10px",
-      display: "inline-flex",
-      textAlign: "center",
-      alignItems: "center",
-      justifyContent: "center",
-      borderRadius: "100%",
-      transform: "translate(-50%, -50%)"
-    }}
-  >
-    {text}
-  </div>
-);
+// const Marker = ({ text }) => (
+//   <div
+//     onClick={() => {
+//       console.log("test");
+//     }}
+//     style={{
+//       color: "white",
+//       background: "grey",
+//       padding: "15px 10px",
+//       display: "inline-flex",
+//       textAlign: "center",
+//       alignItems: "center",
+//       justifyContent: "center",
+//       borderRadius: "100%",
+//       transform: "translate(-50%, -50%)"
+//     }}
+//   >
+//     {text}
+//   </div>
+// );
 
 class Map extends Component {
   state = {
@@ -34,10 +34,10 @@ class Map extends Component {
   };
   static defaultProps = {
     center: {
-      lat: 10.7850938,
-      lng: 106.6979573
+      lat: 10.7810762,
+      lng: 106.7006385,
     },
-    zoom: 16
+    zoom: 13.5
   };
   handleApiLoaded = (google, handleLoadAreaAd) => {
     const { map, maps } = google;
@@ -45,8 +45,6 @@ class Map extends Component {
       type: "FeatureCollection",
       features: data_planning.reduce((acc, cur) => [...acc, ...cur.QHPK], [])
     };
-
-    console.log(map, maps);
     map.data.addGeoJson(data);
     map.data.setStyle(function(feature) {
       var color = feature.getProperty("rgbcolor");
@@ -92,7 +90,7 @@ class Map extends Component {
       origin: new maps.Point(0, 0), // origin
       anchor: new maps.Point(0, 0)
     };
-    data_marker.map(item => {
+    data_marker.forEach(item => {
       const marker = new maps.Marker({
         position: new maps.LatLng(item.lat, item.lng),
         label: item.value,
@@ -107,7 +105,6 @@ class Map extends Component {
         areaInfoWindow.open(map);
       });
       marker.addListener("click", function(event) {
-        console.log(event);
         handleLoadAreaAd(item.area);
       });
       marker.addListener("mouseout", function() {
@@ -120,7 +117,6 @@ class Map extends Component {
   };
 
   render() {
-    console.log(data_planning.reduce((acc, cur) => [...acc, ...cur.QHPK], []));
     return (
       <GoogleMapReact
         style={{ height: "94vh" }}

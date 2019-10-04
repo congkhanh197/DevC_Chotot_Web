@@ -27,10 +27,10 @@ function ProductItem(props) {
           <Card.Text style={{ height: 165, overflow: "hidden" }}>
             {body}
           </Card.Text>
-          <Card.Text style={{ overflow: "hidden" }}>
+          <Card.Text style={{ height: 30, overflow: "hidden" }}>
             {price_string + " - " + rooms + " Phòng"}
           </Card.Text>
-          <Card.Text style={{overflow: "hidden" }}>
+          <Card.Text style={{ height: 42, overflow: "hidden" }}>
             {ward_name + ", " + area_name}
           </Card.Text>
         </Card.Body>

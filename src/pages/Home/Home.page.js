@@ -1,18 +1,9 @@
 import React, { lazy, Suspense, useState } from "react";
 import ProductList from "../../components/ProductList";
-import {
-  InputGroup,
-  FormControl,
-  Button,
-  Row,
-  Col,
-  Container,
-  Pagination
-} from "react-bootstrap";
+import { Row, Col, Container, Pagination } from "react-bootstrap";
 import Loading from "../../components/Loading";
 import { GET_AD_LISTING } from "../../api";
 import { useQuery } from "@apollo/react-hooks";
-import CustomerChat from "./components/CustomerChat";
 const Map = lazy(() => import("../../components/Map"));
 
 function HomePage(props) {
@@ -106,7 +97,6 @@ function HomePage(props) {
           <Map setArea={setArea} />
         </Suspense>
       </div>
-      <CustomerChat />
     </>
   );
 }
