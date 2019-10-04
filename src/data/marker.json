@@ -1,0 +1,163 @@
+[
+  {
+    "lat": 11.010943,
+    "lng": 106.5132293,
+    "area": 116,
+    "area_name": "Huyện Củ Chi",
+    "value": "140"
+  },
+  {
+    "lat": 10.6508625,
+    "lng": 106.6933108,
+    "area": 118,
+    "area_name": "Huyện Nhà Bè",
+    "value": "138"
+  },
+  {
+    "lat": 10.8538277,
+    "lng": 106.7214247,
+    "area": 114,
+    "area_name": "Quận Thủ Đức",
+    "value": "131"
+  },
+  {
+    "lat": 10.8163612,
+    "lng": 106.63536,
+    "area": 104,
+    "area_name": "Quận 12",
+    "value": "130"
+  },
+  {
+    "lat": 10.8170832,
+    "lng": 106.81929,
+    "area": 107,
+    "area_name": "Quận 9",
+    "value": "130"
+  },
+  {
+    "lat": 10.6426253,
+    "lng": 106.5958088,
+    "area": 115,
+    "area_name": "Huyện Bình Chánh",
+    "value": "130"
+  },
+  {
+    "lat": 10.7715104,
+    "lng": 106.5884801,
+    "area": 108,
+    "area_name": "Quận Bình Tân",
+    "value": "128"
+  },
+  {
+    "lat": 10.7458072,
+    "lng": 106.6343692,
+    "area": 101,
+    "area_name": "Quận 6",
+    "value": "122"
+  },
+  {
+    "lat": 10.8776976,
+    "lng": 106.523797,
+    "area": 117,
+    "area_name": "Huyện Hóc Môn",
+    "value": "121"
+  },
+  {
+    "lat": 10.7764388,
+    "lng": 106.6825214,
+    "area": 103,
+    "area_name": "Quận 3",
+    "value": "120"
+  },
+  {
+    "lat": 10.722881,
+    "lng": 106.6103576,
+    "area": 98,
+    "area_name": "Quận 8",
+    "value": "120"
+  },
+  {
+    "lat": 10.8354056,
+    "lng": 106.6489834,
+    "area": 110,
+    "area_name": "Quận Gò Vấp",
+    "value": "120"
+  },
+  {
+    "lat": 10.733133,
+    "lng": 106.6997194,
+    "area": 109,
+    "area_name": "Quận 7",
+    "value": "117"
+  },
+  {
+    "lat": 10.812135,
+    "lng": 106.7001598,
+    "area": 102,
+    "area_name": "Quận Bình Thạnh",
+    "value": "114"
+  },
+  {
+    "lat": 10.7727178,
+    "lng": 106.6606732,
+    "area": 105,
+    "area_name": "Quận 10",
+    "value": "108"
+  },
+  {
+    "lat": 10.7558399,
+    "lng": 106.6600377,
+    "area": 100,
+    "area_name": "Quận 5",
+    "value": "107"
+  },
+  {
+    "lat": 10.8008669,
+    "lng": 106.6707388,
+    "area": 111,
+    "area_name": "Quận Phú Nhuận",
+    "value": "105"
+  },
+  {
+    "lat": 10.7659454,
+    "lng": 106.6391147,
+    "area": 106,
+    "area_name": "Quận 11",
+    "value": "102"
+  },
+  {
+    "lat": 10.791457,
+    "lng": 106.6098949,
+    "area": 113,
+    "area_name": "Quận Tân Phú",
+    "value": "99"
+  },
+  {
+    "lat": 10.758379,
+    "lng": 106.7014663,
+    "area": 99,
+    "area_name": "Quận 4",
+    "value": "94"
+  },
+  {
+    "lat": 10.805401,
+    "lng": 106.6499683,
+    "area": 112,
+    "area_name": "Quận Tân Bình",
+    "value": "90"
+  },
+  {
+    "lat": 10.776441,
+    "lng": 106.7002083,
+    "area": 96,
+    "area_name": "Quận 1",
+    "value": "70"
+  },
+  {
+    "lat": 10.785748,
+    "lng": 106.7551003,
+    "area": 97,
+    "area_name": "Quận 2",
+    "value": "30"
+  }
+]

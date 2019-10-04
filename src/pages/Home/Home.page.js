@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import React, { lazy, Suspense, useState } from "react";
 import ProductList from "../../components/ProductList";
 import {
   InputGroup,
@@ -9,15 +9,19 @@ import {
   Container,
   Pagination
 } from "react-bootstrap";
+import Loading from "../../components/Loading";
 import { GET_AD_LISTING } from "../../api";
 import { useQuery } from "@apollo/react-hooks";
+import CustomerChat from "./components/CustomerChat";
 const Map = lazy(() => import("../../components/Map"));
 
 function HomePage(props) {
+  const [area, setArea] = useState(null);
   const { loading, error, data, refetch } = useQuery(GET_AD_LISTING, {
     variables: {
       o: 0,
-      limit: 12
+      limit: 12,
+      area
     }
   });
   const pageCount = data
@@ -31,16 +35,16 @@ function HomePage(props) {
       <Row style={{ marginTop: 56 }}>
         <Col>
           <Container>
-            <Row style={{ padding: "10px" }}>
+            {/* <Row style={{ padding: "10px" }}>
               <InputGroup>
                 <FormControl aria-describedby="basic-addon1" />
                 <InputGroup.Append>
                   <Button variant="outline-secondary">Search</Button>
                 </InputGroup.Append>
               </InputGroup>
-            </Row>
+            </Row> */}
             <>
-              {loading && <div>"Loading..."</div>}
+              {loading && <Loading />}
               {error && <div>{`Error! ${error.message}`}</div>}
               {data && (
                 <ProductList
@@ -99,9 +103,10 @@ function HomePage(props) {
       </Row>
       <div style={{ position: "fixed", width: "50%", right: 0, top: 56 }}>
         <Suspense fallback={<div>Loading...</div>}>
-          <Map />
+          <Map setArea={setArea} />
         </Suspense>
       </div>
+      <CustomerChat />
     </>
   );
 }
