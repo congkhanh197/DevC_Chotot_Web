@@ -1,32 +1,21 @@
 import React, { Component } from "react";
 
 import GoogleMapReact from "google-map-react";
+import { Image } from "react-bootstrap";
 
 const API_KEY = "AIzaSyDBunJ4GXNEC3KJlpoGJO-iB--CjPv4o-s";
 
 const data_planning = require("../data/data.json");
 const data_marker = require("../data/marker.json");
+const ad_marker = require("../data/ad_marker.json");
 
-// const Marker = ({ text }) => (
-//   <div
-//     onClick={() => {
-//       console.log("test");
-//     }}
-//     style={{
-//       color: "white",
-//       background: "grey",
-//       padding: "15px 10px",
-//       display: "inline-flex",
-//       textAlign: "center",
-//       alignItems: "center",
-//       justifyContent: "center",
-//       borderRadius: "100%",
-//       transform: "translate(-50%, -50%)"
-//     }}
-//   >
-//     {text}
-//   </div>
-// );
+const Marker = ({ onClick }) => (
+  <Image
+    src="https://images.vexels.com/media/users/3/142675/isolated/preview/84e468a8fff79b66406ef13d3b8653e2-house-location-marker-icon-by-vexels.png"
+    style={{ width: 40, height: 40 }}
+    onClick={onClick}
+  />
+);
 
 class Map extends Component {
   state = {
@@ -128,9 +117,14 @@ class Map extends Component {
           this.handleApiLoaded(google, this.props.setArea)
         }
       >
-        {/* {data_marker.map(item => (
-          <Marker lat={10.8014539} lng={106.6391456} text="My Marker" />
-        ))} */}
+        {ad_marker.map(item => (
+          <Marker
+            key={item.list_id + item.lat}
+            lat={item.lat}
+            lng={item.lng}
+            onClick={this.props.onAdClick(item.list_id)}
+          />
+        ))}
       </GoogleMapReact>
     );
   }
