@@ -77,7 +77,6 @@ export default function ChartResult({ borrowDetail }) {
     yearBorrow,
     interestRate
   } = borrowDetail;
-  // console.log(borrowDetail);
   const roundPropertyPrice = Math.round(propertyPrice / 10 ** 8) * 10 ** 8;
   const firstPay = (roundPropertyPrice * (100 - percentBorrow)) / 100;
   const needPay = (roundPropertyPrice * percentBorrow) / 100;

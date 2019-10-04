@@ -1,21 +1,19 @@
 import React, { lazy, Suspense, useState } from "react";
 import ProductList from "../../components/ProductList";
-import {
+import { 
   Button,
-  Row,
-  Col,
-  Container,
-  Pagination,
-  Image,
-  Modal,
-  Form,
-  ListGroup
+  Row, 
+  Col, 
+  Container, 
+  Pagination, 
+  Image, 
+  Modal, 
+  Form, 
+  ListGroup 
 } from "react-bootstrap";
 import Loading from "../../components/Loading";
 import { GET_AD_LISTING } from "../../api";
 import { useQuery } from "@apollo/react-hooks";
-import CustomerChat from "./components/CustomerChat";
-
 const Map = lazy(() => import("../../components/Map"));
 
 const recommend_female = require("../../data/recommend_female.json");
@@ -222,6 +220,7 @@ function HomePage(props) {
           </Button>
         </Modal.Footer>
       </Modal>
+
     </>
   );
 }
