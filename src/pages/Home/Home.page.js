@@ -1,15 +1,16 @@
 import React, { lazy, Suspense, useState } from "react";
 import ProductList from "../../components/ProductList";
-import { 
+import {
   Button,
-  Row, 
-  Col, 
-  Container, 
-  Pagination, 
-  Image, 
-  Modal, 
-  Form, 
-  ListGroup 
+  Row,
+  Col,
+  Container,
+  Pagination,
+  Image,
+  Modal,
+  Form,
+  ListGroup,
+  FormControl
 } from "react-bootstrap";
 import Loading from "../../components/Loading";
 import { GET_AD_LISTING } from "../../api";
@@ -47,6 +48,22 @@ function HomePage(props) {
       <Row style={{ marginTop: 56 }}>
         <Col>
           <Container>
+            <Row style={{ padding: "10px" }}>
+              <FormControl
+                placeholder={"Search..."}
+                onKeyDown={e => {
+                  if (e.key === "Enter") {
+                    e.target.blur();
+                    refetch({
+                      o: 0,
+                      limit: 12,
+                      q: e.target.value
+                    });
+                  }
+                }}
+              />
+            </Row>
+
             <>
               {loading && <Loading />}
               {error && <div>{`Error! ${error.message}`}</div>}
@@ -56,6 +73,9 @@ function HomePage(props) {
                   onAdClick={list_id => () =>
                     props.history.push(list_id.toString())}
                 />
+              )}
+              {data && data.AdListing.data.length === 0 && (
+                <div>Không tìm thấy dữ liệu</div>
               )}
             </>
             <Row className="justify-content-md-center">
@@ -136,10 +156,10 @@ function HomePage(props) {
               <Form.Group as={Col} controlId="formGridCity">
                 <Form.Control
                   as="select"
-                  placeholder={"1"}
                   onChange={e => setSex(e.target.value)}
+                  value="1"
                 >
-                  <option value="" disabled selected>
+                  <option value="1" disabled>
                     Chọn giới tính của bạn
                   </option>
                   <option>Nam</option>
@@ -151,8 +171,9 @@ function HomePage(props) {
                 <Form.Control
                   as="select"
                   onChange={e => setBirthYeah(e.target.value)}
+                  value="1"
                 >
-                  <option value="" disabled selected>
+                  <option value="1" disabled>
                     Chọn năm sinh của bạn
                   </option>
                   {(() => {
@@ -193,7 +214,9 @@ function HomePage(props) {
                       <ListGroup>
                         {Object.entries(data["Hướng tốt"]).map(
                           ([key, value]) => (
-                            <ListGroup.Item>{key + value}</ListGroup.Item>
+                            <ListGroup.Item key={key + value}>
+                              {key + value}
+                            </ListGroup.Item>
                           )
                         )}
                       </ListGroup>
@@ -203,7 +226,9 @@ function HomePage(props) {
                       <ListGroup>
                         {Object.entries(data["Hướng xấu"]).map(
                           ([key, value]) => (
-                            <ListGroup.Item>{key + value}</ListGroup.Item>
+                            <ListGroup.Item key={key + value}>
+                              {key + value}
+                            </ListGroup.Item>
                           )
                         )}
                       </ListGroup>
@@ -220,7 +245,6 @@ function HomePage(props) {
           </Button>
         </Modal.Footer>
       </Modal>
-
     </>
   );
 }
