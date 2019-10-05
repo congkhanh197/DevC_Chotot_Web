@@ -1,5 +1,6 @@
 import React, { lazy, Suspense, useState } from "react";
 import ProductList from "../../components/ProductList";
+import { Formik } from "formik";
 import {
   Button,
   Row,
@@ -19,6 +20,9 @@ const Map = lazy(() => import("../../components/Map"));
 
 const recommend_female = require("../../data/recommend_female.json");
 const recommend_male = require("../../data/recommend_male.json");
+const lucky_date = require("../../data/lucky_date.json");
+const date = new Date();
+const list_year = [2019, 2020, 2021];
 
 function HomePage(props) {
   const [showModal, setShowModal] = useState(false);
@@ -136,17 +140,22 @@ function HomePage(props) {
         </Suspense>
       </div>
       <div
-        style={{ position: "fixed", right: 50, bottom: 50, zIndex: 100000 }}
+        style={{ position: "fixed", right: 50, bottom: 50 }}
         onClick={handleShow}
       >
         <Image
-          style={{ width: 100, height: 100 }}
+          style={{ width: 60, height: 60 }}
           src="https://photo.tinhte.vn/store/2014/11/2637121_icon.png"
           thumbnail
           roundedCircle
         />
       </div>
-      <Modal show={showModal} onHide={handleClose} centered>
+      <Modal
+        show={showModal}
+        onHide={handleClose}
+        centered
+        dialogClassName="modal-90w"
+      >
         <Modal.Header closeButton>
           <Modal.Title>Gợi ý hướng nhà theo năm sinh</Modal.Title>
         </Modal.Header>
@@ -238,6 +247,102 @@ function HomePage(props) {
               })()}
             </Container>
           )}
+          <h4>{"Xem ngày tốt (Dương lịch):"}</h4>
+          <Formik
+            onSubmit={console.log}
+            initialValues={{
+              day: date.getDate(),
+              month: date.getMonth() + 1,
+              year: 0
+            }}
+          >
+            {({ handleSubmit, handleChange, values }) => (
+              <>
+                <Form noValidate onSubmit={handleSubmit}>
+                  <Form.Row>
+                    <Form.Group as={Col} controlId="year">
+                      <Form.Label>Năm</Form.Label>
+                      <Form.Control
+                        value={values.year}
+                        as="select"
+                        onChange={handleChange}
+                      >
+                        <option value={0}>2019</option>
+                        <option value={1}>2020</option>
+                        <option value={2}>2021</option>
+                      </Form.Control>
+                    </Form.Group>
+                    <Form.Group as={Col} controlId="month">
+                      <Form.Label>Tháng</Form.Label>
+                      <Form.Control
+                        value={values.month}
+                        as="select"
+                        onChange={handleChange}
+                      >
+                        {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map(item => (
+                          <option key={item} value={item}>
+                            {item}
+                          </option>
+                        ))}
+                      </Form.Control>
+                    </Form.Group>
+                    <Form.Group as={Col} controlId="day">
+                      <Form.Label>Ngày</Form.Label>
+                      <Form.Control
+                        value={values.day}
+                        as="select"
+                        onChange={handleChange}
+                      >
+                        {[
+                          1,
+                          2,
+                          3,
+                          4,
+                          5,
+                          6,
+                          7,
+                          8,
+                          9,
+                          10,
+                          11,
+                          12,
+                          13,
+                          14,
+                          15,
+                          16,
+                          17,
+                          18,
+                          19,
+                          20,
+                          21,
+                          22,
+                          23,
+                          24,
+                          25,
+                          26,
+                          27,
+                          28,
+                          29,
+                          30,
+                          31
+                        ].map(item => (
+                          <option key={item} value={item}>
+                            {item}
+                          </option>
+                        ))}
+                      </Form.Control>
+                    </Form.Group>
+                  </Form.Row>
+                </Form>
+                {
+                  lucky_date[values.year][list_year[values.year]][values.month][
+                    values.day
+                  ]
+                  // lucky_date[0][2019][1][2]
+                }
+              </>
+            )}
+          </Formik>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
