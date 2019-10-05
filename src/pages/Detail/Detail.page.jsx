@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import TabView from "./components/TabView";
+import { NavLink } from "react-router-dom";
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
 
 import Loading from "../../components/Loading";
@@ -13,7 +14,12 @@ function DetailPage(props) {
   useEffect(() => {
     Promise.all([
       axios.get(
-        process.env.REACT_APP_BASE_URL + "ad-listing" + props.match.url
+        process.env.REACT_APP_BASE_URL + "ad-listing" + props.match.url,
+        {
+          headers: {
+            Authentication: "5d98d0341c9d440000c43dba"
+          }
+        }
       ),
       axios.get(process.env.REACT_APP_BASE_URL + "recommend" + props.match.url)
     ])
@@ -100,28 +106,32 @@ function DetailPage(props) {
       </Row>
       <Row>
         {recommend.map(item => (
-          <Card
+          <NavLink
             key={item.list_id}
-            style={{ width: 218, margin: 5 }}
-            onClick={() => {
-              props.history.push("/" + item.list_id);
+            to={"/" + item.list_id}
+            style={{
+              color: "black",
+              textDecoration: "none",
+              backgroundColor: "none"
             }}
           >
-            <Card.Img
-              variant="top"
-              src={item.image}
-              style={{ maxWidth: 218, maxHeight: 218 }}
-            />
-            <Card.Body>
-              <Card.Title style={{ height: 50, overflow: "hidden" }}>
-                {item.subject}
-              </Card.Title>
-              <Card.Text>
-                {item.price_string + " - " + item.rooms + " Phòng"}
-              </Card.Text>
-              <Card.Text>{item.ward_name + ", " + item.area_name}</Card.Text>
-            </Card.Body>
-          </Card>
+            <Card style={{ width: 218, margin: 5 }}>
+              <Card.Img
+                variant="top"
+                src={item.image}
+                style={{ maxWidth: 218, maxHeight: 218 }}
+              />
+              <Card.Body>
+                <Card.Title style={{ height: 50, overflow: "hidden" }}>
+                  {item.subject}
+                </Card.Title>
+                <Card.Text>
+                  {item.price_string + " - " + item.rooms + " Phòng"}
+                </Card.Text>
+                <Card.Text>{item.ward_name + ", " + item.area_name}</Card.Text>
+              </Card.Body>
+            </Card>
+          </NavLink>
         ))}
       </Row>
     </Container>
