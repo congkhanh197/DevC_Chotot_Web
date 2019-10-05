@@ -55,13 +55,27 @@ class Map extends Component {
 
     let areaInfoWindow = null;
     map.data.addListener("mouseover", function(event) {
+      if (areaInfoWindow != null) {
+        areaInfoWindow.close();
+        areaInfoWindow = null;
+      }
+      const purpose = event.feature.getProperty("chucnang");
+      const size = Math.round(event.feature.getProperty("dientich")) + " m3";
+      const code = "Mã sổ: " + event.feature.getProperty("maso");
+      areaInfoWindow = new maps.InfoWindow({
+        content: `<div><b>${purpose}</b><br/>${size}<br/>${code}</div>`,
+        position: event.latLng
+      });
+      areaInfoWindow.open(map);
+    });
+    map.data.addListener("click", function(event) {
+      if (areaInfoWindow != null) {
+        areaInfoWindow.close();
+        areaInfoWindow = null;
+      }
       areaInfoWindow = new maps.InfoWindow({
         content:
-          event.feature.getProperty("chucnang") +
-          " - " +
-          Math.round(event.feature.getProperty("dientich")) +
-          " m3 - Mã sổ: " +
-          event.feature.getProperty("maso"),
+          "<div><img width=100% src='https://thongtinquyhoach.hochiminhcity.gov.vn/api/quy-hoach-phan-khu/MjEzMjY3fDAwMTA4'></div>",
         position: event.latLng
       });
       areaInfoWindow.open(map);
