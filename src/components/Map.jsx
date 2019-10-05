@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import { NavLink } from "react-router-dom";
 import GoogleMapReact from "google-map-react";
 import { Image } from "react-bootstrap";
 
@@ -9,12 +9,20 @@ const data_planning = require("../data/data.json");
 const data_marker = require("../data/marker.json");
 const ad_marker = require("../data/ad_marker.json");
 
-const Marker = ({ onClick }) => (
-  <Image
-    src="https://images.vexels.com/media/users/3/142675/isolated/preview/84e468a8fff79b66406ef13d3b8653e2-house-location-marker-icon-by-vexels.png"
-    style={{ width: 40, height: 40 }}
-    onClick={onClick}
-  />
+const Marker = ({ listId }) => (
+  <NavLink
+    to={"/" + listId}
+    style={{
+      color: "black",
+      textDecoration: "none",
+      backgroundColor: "none"
+    }}
+  >
+    <Image
+      src="https://images.vexels.com/media/users/3/142675/isolated/preview/84e468a8fff79b66406ef13d3b8653e2-house-location-marker-icon-by-vexels.png"
+      style={{ width: 40, height: 40 }}
+    />
+  </NavLink>
 );
 
 class Map extends Component {
@@ -136,7 +144,7 @@ class Map extends Component {
             key={item.list_id + item.lat}
             lat={item.lat}
             lng={item.lng}
-            onClick={this.props.onAdClick(item.list_id)}
+            listId={item.list_id}
           />
         ))}
       </GoogleMapReact>

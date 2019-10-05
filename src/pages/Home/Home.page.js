@@ -71,13 +71,7 @@ function HomePage(props) {
             <>
               {loading && <Loading />}
               {error && <div>{`Error! ${error.message}`}</div>}
-              {data && (
-                <ProductList
-                  data={data.AdListing.data}
-                  onAdClick={list_id => () =>
-                    props.history.push(list_id.toString())}
-                />
-              )}
+              {data && <ProductList data={data.AdListing.data} />}
               {data && data.AdListing.data.length === 0 && (
                 <div>Không tìm thấy dữ liệu</div>
               )}
@@ -131,12 +125,7 @@ function HomePage(props) {
       </Row>
       <div style={{ position: "fixed", width: "50%", right: 0, top: 56 }}>
         <Suspense fallback={<div>Loading...</div>}>
-          <Map
-            setArea={setArea}
-            onAdClick={list_id => () => {
-              props.history.push(list_id.toString());
-            }}
-          />
+          <Map setArea={setArea} />
         </Suspense>
       </div>
       <div
