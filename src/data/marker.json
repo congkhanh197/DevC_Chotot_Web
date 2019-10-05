@@ -23,14 +23,14 @@
   {
     "lat": 10.8163612,
     "lng": 106.63536,
-    "area": 104,
+    "area": 107,
     "area_name": "Quận 12",
     "value": "130"
   },
   {
     "lat": 10.8170832,
     "lng": 106.81929,
-    "area": 107,
+    "area": 104,
     "area_name": "Quận 9",
     "value": "130"
   },
@@ -65,14 +65,14 @@
   {
     "lat": 10.7764388,
     "lng": 106.6825214,
-    "area": 103,
+    "area": 98,
     "area_name": "Quận 3",
     "value": "120"
   },
   {
     "lat": 10.722881,
     "lng": 106.6103576,
-    "area": 98,
+    "area": 103,
     "area_name": "Quận 8",
     "value": "120"
   },
@@ -86,14 +86,14 @@
   {
     "lat": 10.733133,
     "lng": 106.6997194,
-    "area": 109,
+    "area": 102,
     "area_name": "Quận 7",
     "value": "117"
   },
   {
     "lat": 10.812135,
     "lng": 106.7001598,
-    "area": 102,
+    "area": 109,
     "area_name": "Quận Bình Thạnh",
     "value": "114"
   },
