@@ -101,7 +101,7 @@ class Map extends Component {
         position: new maps.LatLng(item.lat, item.lng),
         label: item.value,
         icon: {
-          url: "http://hyveephoto.com/images/circle-transparent-png-8.png",
+          url: "https://www.freeiconspng.com/uploads/orange-circle-png-3.png",
           scaledSize: new maps.Size(sizeMarker, sizeMarker),
           origin: new maps.Point(0, 0),
           anchor: new maps.Point(0, 0)
